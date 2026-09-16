@@ -1,6 +1,6 @@
 # ShopSphere Frontend
 
-React frontend for ShopSphere. The production bundle is generated during deployment.
+React frontend for ShopSphere.
 
 ## Stack
 - React
@@ -10,5 +10,3 @@ React frontend for ShopSphere. The production bundle is generated during deploym
 - Axios
 - React Router
 
-## Attribution
-This frontend is an adaptation of the original MIT-licensed Cricket Weapon project. Preserve the original license/attribution when redistributing the source.
