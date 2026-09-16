@@ -1,0 +1,14 @@
+# ShopSphere Frontend
+
+React frontend for ShopSphere. The production bundle is generated during deployment.
+
+## Stack
+- React
+- Redux / Redux Thunk
+- Material UI
+- Cash on Delivery checkout
+- Axios
+- React Router
+
+## Attribution
+This frontend is an adaptation of the original MIT-licensed Cricket Weapon project. Preserve the original license/attribution when redistributing the source.
