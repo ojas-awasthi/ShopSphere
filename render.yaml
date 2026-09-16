@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: shopsphere
+    runtime: node
+    plan: free
+    buildCommand: npm ci --omit=dev && cd frontend && npm ci --omit=dev --ignore-scripts && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
